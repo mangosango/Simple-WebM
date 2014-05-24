@@ -10,9 +10,9 @@ Install:
 * Run *install_ffmpeg.command* to install ffmpeg and dependencies.
 
 Usage: 
-1.  Move WebM.command to the same folder as the video you wish to convert.
-2.  Copy the name of the video you wish to convert (including the extension)
-3.  Run WebM.command and follow the directions as prompted.
+* Move WebM.command to the same folder as the video you wish to convert.
+* Copy the name of the video you wish to convert (including the extension)
+* Run WebM.command and follow the directions as prompted.
 
 ---------------------------------
 
