@@ -16,7 +16,6 @@ Usage:
 
 ---------------------------------
 
-To do:
-======
+###To do:
 
 Package into .app to support drag and drop user input. Make GUI (possibly using: https://github.com/maccman/macgap).
