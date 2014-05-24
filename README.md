@@ -19,4 +19,4 @@ Based on [this script for windows](http://www.neogaf.com/forum/showpost.php?p=10
 To do:
 ======
 
-Package into .app to support drag and drop user input. Make GUI (possibly using: https://github.com/maccman/macgap).
+Package into .app to support drag and drop user input. Make GUI (possibly using: https://github.com/maccman/macgap). Add pomf.se or gfycat uploading (possibly using: https://gist.github.com/KittyKatt/5818701).
