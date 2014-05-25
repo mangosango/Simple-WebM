@@ -10,9 +10,9 @@ Based on [this script for windows](http://www.neogaf.com/forum/showpost.php?p=10
 * Run **install_ffmpeg.command** to install ffmpeg and dependencies.
 
 ###Usage: 
-* Move WebM.command to the same folder as the video you wish to convert.
+* Move **WebM.command** to the same folder as the video you wish to convert.
 * Copy the name of the video you wish to convert (including the extension)
-* Run WebM.command and follow the directions as prompted.
+* Run **WebM.command** and follow the directions as prompted.
 
 ---------------------------------
 
