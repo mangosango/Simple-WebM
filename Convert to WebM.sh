@@ -9,12 +9,22 @@ BITRATE=5
 AUDIO="-an"
 CODEC="libvpx"
 
-# Loop over args
-for VIDEO_NAME
-do
-	echo -e "Converting $VIDEO_NAME..."
-	/usr/local/bin/ffmpeg -y -i "$VIDEO_NAME" -c:v $CODEC -crf $QUALITY -b:v ${BITRATE}M -vf scale=${WIDTH}:-1 $AUDIO "${VIDEO_NAME}.converted.webm"
-done
+# if it's a gif
+if [[ $1 == *.gif ]]
+then
+	for VIDEO_NAME
+	do
+		echo -e "Converting $VIDEO_NAME..."
+		/usr/local/bin/ffmpeg -y -i "$VIDEO_NAME" -c:v $CODEC -crf $QUALITY -b:v ${BITRATE}M "${VIDEO_NAME}.converted.webm"
+	done
+else
+	# else if it's a video
+	for VIDEO_NAME
+	do
+		echo -e "Converting $VIDEO_NAME..."
+		/usr/local/bin/ffmpeg -y -i "$VIDEO_NAME" -c:v $CODEC -crf $QUALITY -b:v ${BITRATE}M -vf scale=${WIDTH}:-1 $AUDIO "${VIDEO_NAME}.converted.webm"
+	done
+fi
 
 # Finished!
 echo -e "Finished Converting $# files."
