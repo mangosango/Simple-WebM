@@ -15,7 +15,7 @@ Based on [this script for windows](http://www.neogaf.com/forum/showpost.php?p=10
 * Run **install_ffmpeg.command** to install ffmpeg and dependencies.
 
 ##### Usage (quick drag and drop):
-* Drag the drag a video on **WebMConvert** app icon. Perfect for posting to GAF :D
+* Drag a video on **WebMConvert** app icon. Perfect for posting to GAF :D
 
 ##### Usage (full settings):
 * Move **WebM.command** to the same folder as the video you wish to convert.
